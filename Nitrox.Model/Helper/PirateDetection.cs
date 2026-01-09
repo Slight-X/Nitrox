@@ -35,7 +35,7 @@ namespace Nitrox.Model.Helper
             }
 
             OnPirateDetected();
-            return true;
+            return false;
         }
 
         private static event EventHandler pirateDetected;
